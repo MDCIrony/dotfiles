@@ -1,0 +1,28 @@
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/tokyo_night_storm.toml"
+]
+
+working_directory = "/home/mdcast/"
+
+
+[window]
+padding = { x = 15, y = 15}
+decorations = "None"
+startup_mode = "Maximized"
+class = {general =  "Alacritty", instance = "Alacritty"}
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+
+[terminal]
+shell = "/bin/bash"
+
+[keyboard]
+bindings = [
+    { key = "N", mods = "Control|Shift", action = "CreateNewTab" },
+    { key = "M", mods = "Control|Shift", action = "ToggleFullscreen"}
+]
