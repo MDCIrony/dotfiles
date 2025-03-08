@@ -12,6 +12,7 @@ padding = { x = 15, y = 15}
 decorations = "None"
 startup_mode = "Maximized"
 class = {general =  "Alacritty", instance = "Alacritty"}
+opacity = 0.95
 
 [scrolling]
 history = 10000
@@ -21,8 +22,14 @@ multiplier = 3
 [terminal]
 shell = "/bin/bash"
 
+[font]
+normal = {family = "JetBrains Mono Nerd Font", style = "Medium"}
+bold = {family = "JetBrains Mono Nerd Font", style = "Bold"}
+italic = {family = "JetBrains Mono Nerd Font", style = "MediumItalic"}
+bold_italic = {family = "JetBrains Mono Nerd Font", style = "BoldItalic"}
+
+
 [keyboard]
 bindings = [
-    { key = "N", mods = "Control|Shift", action = "CreateNewTab" },
     { key = "M", mods = "Control|Shift", action = "ToggleFullscreen"}
 ]
